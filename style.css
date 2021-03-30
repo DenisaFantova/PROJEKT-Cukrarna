@@ -112,8 +112,15 @@ header ul {
 .menu a {
 	text-decoration: none;
 	color: #242424;
-	
 }
+
+.menu a:hover {
+	background-color: #d2567d;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 20px;
+}
+
 /*-----------------------------------------------
 SEKCE OBECNĚ
 -----------------------------------------------*/
@@ -181,11 +188,6 @@ TLAČÍTKA - Menu + Vítejte
 	display: block;
 	text-decoration: none;
 	color: white;
-}
-
-.objednavka {
-	padding: 10px 15px;
-	border-radius: 20px;	
 }
 
 .nase-vyrobky {
